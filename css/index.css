@@ -1,0 +1,54 @@
+body{
+	margin: 0px auto;
+	font-family:Verdana;
+}
+
+.header{
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title{
+	width: 70%;
+}
+
+ul {
+	margin: 0px !important;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+li a{
+	color: white;
+	text-decoration: none;
+}
+
+.title li input{
+	border: none;
+	background-color: #66FFFF;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.head{
+	background-color: #660099;
+	color: white;
+	height: 100px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+	height: 450px;
+	background-color: #9900FF;
+	/*margin: auto;*/
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
