@@ -44,6 +44,9 @@
 	  	<div class="dropdown-menu collapse navbar-collapse" id="navbarNav">
 		    <ul class="navbar-nav">
 		      <li class="nav-item">
+		        <a class="nav-link" href="#"><i class="fas fa-home"></i></a>
+		      </li>
+		      <li class="nav-item">
 		        <a class="nav-link" href="#">XÃ HỘI</a>
 		      </li>
 		      <li class="nav-item">
