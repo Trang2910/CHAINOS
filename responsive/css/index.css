@@ -86,15 +86,18 @@ ul{
 	margin-right: 0.3em;
 }
 
+.navigation{
+	margin-bottom: 0px;
+}
 
 @media only screen and (min-width: 768px){
 	.header, .mid, .right{
-		max-width: 450px;
+		max-width: 500px;
 		margin: 0px auto;
 	}
 }
 
-@media only screen and (min-width: 1280px){
+@media only screen and (min-width: 990px){
 	.header, .main{
 		max-width: 990px;
 		margin: 0px auto;
@@ -197,10 +200,19 @@ ul{
 		top: 0px;
 		bottom: 0px;
 		padding: 15px !important;
-		background-color: #2fa1b3 !important;
+		background-color: #2fa1b3 !important;		
 	}
 
-	.nav-item>a{
-		color: white;
+	.navbar-expand-lg .navbar-collapse{
+		justify-content: center;
 	}
+
+	.navbar-light .navbar-nav .nav-link{
+		color: white !important;
+	}
+
+	.navigation{
+		margin-bottom: 3em;
+	}
+	
 }

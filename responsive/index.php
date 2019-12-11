@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/Index.css">
 	<link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -36,9 +36,9 @@
 				<div style="padding: 6px 12px;"><a href=""><i class="fas fa-bell" style="color: black;"></i></a></div>
 			</div>
 	</div>
-	<div style="height: 4em">
+	<div class="navigation">
 		<nav class="navbar navbar-expand-lg navbar-light">
-  		<button class="navbar-toggler" type="button" data-toggle="dropdown">
+  		<button class="navbar-toggler" type="button" data-toggle="dropdown" style="font-size: 0.4em; padding: 0.4em;">
     		<span class="navbar-toggler-icon"></span>
   		</button>
 	  	<div class="dropdown-menu collapse navbar-collapse" id="navbarNav">
