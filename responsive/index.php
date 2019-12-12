@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/Index.css">
+	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="js/index.js"></script>
 	<title>Báo mới-Tin tức nóng nhất</title>
 </head>
 <body>
@@ -36,60 +37,26 @@
 				<div style="padding: 6px 12px;"><a href=""><i class="fas fa-bell" style="color: black;"></i></a></div>
 			</div>
 	</div>
-	<div class="navigation">
-		<nav class="navbar navbar-expand-lg navbar-light">
-  		<button class="navbar-toggler" type="button" data-toggle="dropdown" style="font-size: 0.4em; padding: 0.4em;">
-    		<span class="navbar-toggler-icon"></span>
-  		</button>
-	  	<div class="dropdown-menu collapse navbar-collapse" id="navbarNav">
-		    <ul class="navbar-nav">
-		      <li class="nav-item">
-		        <a class="nav-link" href="#"><i class="fas fa-home"></i></a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">XÃ HỘI</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">THẾ GIỚI</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">VĂN HÓA</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">KINH TẾ</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">GIÁO DỤC</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">THỂ THAO</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">GIẢI TRÍ</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">PHÁP LUẬT</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">CÔNG NGHỆ</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">KHOA HỌC</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">ĐỜI SỐNG</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">XE CỘ</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">NHÀ ĐẤT</a>
-		      </li>
-		    </ul>
-		</div>
-	</nav>
+
+	<div class="navigation desktop" id="nav">
+		<ul>
+			<li><a href=""><i class="fas fa-home"></i></a></li>
+			<li><a href="#">XÃ HỘI</a></li>
+			<li><a href="">THẾ GIỚI</a></li>
+			<li><a href="">VĂN HÓA</a></li>
+			<li><a href="">KINH TẾ</a></li>
+			<li><a href="">GIÁO DỤC</a></li>
+			<li><a href="">THỂ THAO</a></li>
+			<li><a href="">GIẢI TRÍ</a></li>
+			<li><a href="">PHÁP LUẬT</a></li>
+			<li><a href="">CÔNG NGHỆ</a></li>
+			<li><a href="">KHOA HỌC</a></li>
+			<li><a href="">ĐỜI SỐNG</a></li>
+			<li><a href="">XE CỘ</a></li>
+			<li><a href="">NHÀ ĐẤT</a></li>
+		</ul>
 	</div>
-	
+	<div id="i-menu"><i class="fas fa-ellipsis-h"></i></div>
 	<div class="main">
 		<div class="left">
 				<a href=""><i class="fas fa-fire-alt"></i><span> NÓNG</span></a>

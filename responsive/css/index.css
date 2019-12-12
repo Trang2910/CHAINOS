@@ -1,7 +1,7 @@
 body{
 	margin: 0px auto;
 	font-family: "Verdana";
-    font-size: 13px;
+    font-size: 0.8rem !important;
     line-height: 1.7;
 }
 
@@ -31,7 +31,7 @@ body{
 
 .left{
 	background-color: #2fa1b3;
-	padding: 0.3em 0.5em;
+	padding: 0.3em 0.3em;
 	text-align: center;
 }
 
@@ -86,8 +86,25 @@ ul{
 	margin-right: 0.3em;
 }
 
-.navigation{
-	margin-bottom: 0px;
+#i-menu{
+	display: inline;
+	color: white;
+	float: left;
+	margin-left: 2%;
+	position: relative;
+}
+
+.mobile{
+	width: 30%;
+	padding-left: 1em;
+	z-index: 99;
+	position: absolute;
+	top: 5.7em;
+	background-color: rgba(121,205,205,0.7);
+}
+
+.mobile ul>li a{
+	color: white;
 }
 
 @media only screen and (min-width: 768px){
@@ -130,50 +147,6 @@ ul{
 		display: flex;
 	}
 
-	/*navigation*/
-
-	/*.dropdown{
-	   position: relative;
-	   display: inline-block;
-	}
-
-	.dropdown-content{
-	   display: none;
-	   position: absolute;
-	   background-color: #f5f5f5;
-	   z-index: 1;
-	   list-style: none;
-	}
-
-	.dropdown:hover .dropdown-content{
-	   display: block;
-	}
-
-	.dropdown-content>a{
-		padding: 0px;
-	}*/
-
-	/*.navigation{
-		background-color: #2fa1b3;
-		margin: 10px auto;
-		text-align: center;
-		display: flex;
-		justify-content: center;
-		width: 100%;
-	}
-
-	.navigation ul{
-		display: flex;
-		width: 80%;
-		margin: 0px auto;
-	}
-
-	.navigation ul>li a{
-		padding: 5px;
-		color: white;
-	}*/
-	/*end navigation*/
-
 	.left{
 		background-color: white;
 	}
@@ -191,28 +164,25 @@ ul{
 		padding-right: 0px;
 	}
 
-	nav{
+	.desktop{
 		width: 100%;
+		background-color: #2fa1b3;
 	}
 
-	.dropdown-menu{
-		right: 0px;
-		top: 0px;
-		bottom: 0px;
-		padding: 15px !important;
-		background-color: #2fa1b3 !important;		
-	}
-
-	.navbar-expand-lg .navbar-collapse{
+	.desktop ul{
+		display: flex;
 		justify-content: center;
 	}
 
-	.navbar-light .navbar-nav .nav-link{
-		color: white !important;
+	.desktop ul>li>a{
+		color: white;
 	}
 
-	.navigation{
-		margin-bottom: 3em;
+	.desktop ul>li{
+		padding: 0.3em 0.5em;
 	}
 	
+	#i-menu{
+		display: none;
+	}
 }
